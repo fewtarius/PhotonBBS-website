@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor files
+.vscode/*
+.idea
+*.swp
+*.swo
+*~
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Build
+dist/
+build/
+node_modules/
+
+# CLIO
+ai-assisted/20*/
+scratch/
+.clio/*
+!.clio/instructions.md
