@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terminal Tavern - A telnet BBS where people hang out. Chat, door games, a full MUD, and a community of enthusiasts and newcomers alike. Connect and say hello.">
+    <meta name="keywords" content="BBS, bulletin board system, telnet, door games, MUD, retro computing, Terminal Tavern, PhotonBBS, online community">
+    <meta name="author" content="Andrew Wyatt (Fewtarius)">
+    <title>Terminal Tavern - Where the BBS Lives On</title>
+    <link rel="canonical" href="https://www.terminaltavern.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Terminal Tavern - Where the BBS Lives On">
+    <meta property="og:description" content="A telnet BBS where people hang out. Chat, door games, a full MUD, and a community of enthusiasts and newcomers alike.">
+    <meta property="og:url" content="https://www.terminaltavern.com/">
+    <meta property="og:site_name" content="Terminal Tavern">
+    <meta property="og:image" content="https://www.terminaltavern.com/images/welcome-2x.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="704">
+    <meta property="og:image:alt" content="Terminal Tavern ANSI welcome screen">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Terminal Tavern - Where the BBS Lives On">
+    <meta name="twitter:description" content="A telnet BBS where people hang out. Chat, door games, a full MUD, and a community of enthusiasts and newcomers alike.">
+    <meta name="twitter:image" content="https://www.terminaltavern.com/images/welcome-2x.png">
+    <meta name="twitter:image:alt" content="Terminal Tavern ANSI welcome screen">
+
+    <link rel="stylesheet" href="css/styles.css?v=2">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Terminal Tavern",
+        "url": "https://www.terminaltavern.com/",
+        "description": "A telnet BBS where people hang out. Chat, door games, a full MUD, and a community of enthusiasts and newcomers alike.",
+        "author": {
+            "@type": "Person",
+            "name": "Andrew Wyatt",
+            "url": "https://github.com/fewtarius"
+        },
+        "sourceOrganization": {
+            "@type": "Project",
+            "name": "PhotonBBS",
+            "url": "https://github.com/fewtarius/photonbbs"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="nav-brand">
+                <span>Terminal Tavern</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#features">Features</a>
+                <a href="#games">Games</a>
+                <a href="#community">Community</a>
+                <a href="#connect" class="nav-connect">Connect</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container-wide">
+            <div class="hero-content">
+                <h1>Pull up a chair.</h1>
+                <p class="hero-lead">Terminal Tavern is a place to hang out. Real-time chat, door games, a full MUD, and a community of enthusiasts and newcomers alike. It's a BBS - the way being online used to feel.</p>
+                <div class="hero-cta">
+                    <a href="telnet://terminaltavern.com" class="btn-large btn-primary">Connect Now</a>
+                    <a href="#about" class="btn-large btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-terminal">
+                <div class="terminal-block">
+                    <div class="terminal-header">
+                        <div class="terminal-dot red"></div>
+                        <div class="terminal-dot yellow"></div>
+                        <div class="terminal-dot green"></div>
+                        <span class="terminal-title">terminaltavern.com</span>
+                    </div>
+                    <div class="terminal-body terminal-ansi">
+                        <img src="images/welcome.png"
+                             srcset="images/welcome.png 1x, images/welcome-2x.png 2x"
+                             alt="Terminal Tavern ANSI welcome screen"
+                             class="ansi-art"
+                             width="640" height="352"
+                             loading="eager">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / What is this -->
+    <section id="about" class="feature-highlight">
+        <div class="container">
+            <div class="feature-split">
+                <div class="feature-text">
+                    <div class="eyebrow">The BBS</div>
+                    <h2>Remember when being online felt like going somewhere?</h2>
+                    <p>BBSes were places. You dialed in, said hello, played games, and got to know the regulars. The conversations were real because the people were real - and they stuck around.</p>
+                    <p>Terminal Tavern is that kind of place, built on <a href="https://github.com/fewtarius/photonbbs" target="_blank">PhotonBBS</a> - a modern BBS platform written from scratch. Not a museum piece, but a real system with the warmth of the ones we grew up on.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="terminal-block">
+                        <div class="terminal-header">
+                            <div class="terminal-dot red"></div>
+                            <div class="terminal-dot yellow"></div>
+                            <div class="terminal-dot green"></div>
+                            <span class="terminal-title">Terminal Tavern</span>
+                       </div>
+                       <div class="terminal-body">
+                            <div><span class="yellow">Sysop</span><span class="prompt">:</span> <span class="bright">Anyone up for a round of Red Dragon?</span></div>
+                            <div><span class="yellow">Wanderer</span><span class="prompt">:</span> <span class="bright">Let me finish this MUD quest first.</span></div>
+                            <div><span class="yellow">Pixel</span><span class="prompt">:</span> <span class="bright">Just hit level 12. Feeling brave.</span></div>
+                            <div><span class="yellow">Sysop</span><span class="prompt">:</span> <span class="bright">That's the spirit. /games when ready.</span></div>
+                            <div>&nbsp;</div>
+                            <div><span class="bright">Wanderer went to play Red Dragon</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Games -->
+    <section class="feature-highlight alt">
+        <div class="container">
+            <div class="feature-split reverse">
+                <div class="feature-text">
+                    <div class="eyebrow">Chat Games</div>
+                    <h2>Play without leaving the conversation.</h2>
+                    <p>Trivia, hangman, bingo, liar's dice, and gunfighter duels - all playable right in the chat. Start a game with a slash command and everyone in the channel can jump in.</p>
+                    <p>Or type <code>/games</code> to open the full games menu with 20+ door games, from classic RPGs to space trading to roguelike dungeon crawls.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="terminal-block">
+                        <div class="terminal-header">
+                            <div class="terminal-dot red"></div>
+                            <div class="terminal-dot yellow"></div>
+                            <div class="terminal-dot green"></div>
+                            <span class="terminal-title">teleconference - Main</span>
+                       </div>
+                       <div class="terminal-body">
+                            <div><span class="yellow">Wanderer</span><span class="prompt">:</span> <span class="bright">/trivia</span></div>
+                            <div>&nbsp;</div>
+                            <div><span class="bright">Trivia started! 10 questions, first to answer wins.</span></div>
+                            <div>&nbsp;</div>
+                            <div><span class="dim">Q1:</span> <span class="bright">What year was the first BBS created?</span></div>
+                            <div><span class="dim">    Hint: It was in the late 1970s</span></div>
+                            <div><span class="yellow">Pixel</span><span class="prompt">:</span> <span class="bright">1978</span></div>
+                            <div><span class="green">Correct! Pixel scores 1 point!</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PhotonMUD -->
+    <section class="feature-highlight">
+        <div class="container">
+            <div class="feature-split">
+                <div class="feature-text">
+                    <div class="eyebrow">PhotonMUD</div>
+                    <h2>A world that builds itself.</h2>
+                    <p>PhotonMUD is a procedurally generated multi-user dungeon with D&D-style combat, character classes, spells, crafting, and a living economy. Every world is different.</p>
+                    <p>Explore thousands of rooms, fight monsters, team up with other players, and carve your name into a world that grows with the community.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="terminal-block">
+                        <div class="terminal-header">
+                            <div class="terminal-dot red"></div>
+                            <div class="terminal-dot yellow"></div>
+                            <div class="terminal-dot green"></div>
+                            <span class="terminal-title">PhotonMUD</span>
+                       </div>
+                       <div class="terminal-body">
+                            <div><span class="bright">Country Road</span></div>
+                            <div><span class="dim">A well-traveled road stretches across the land,</span></div>
+                            <div><span class="dim">connecting distant towns and castles.</span></div>
+                            <div><span class="dim">Obvious exits: </span><span class="green">N, S, E, W, NE, SE, SW, NW</span></div>
+                            <div>&nbsp;</div>
+                            <div><span class="prompt">[Lv:1 HP:6/12 G:50 XP:1680/2000]</span> <span class="bright">></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Showcase -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <h2 class="section-title-centered">Plenty to do.</h2>
+            <p class="section-subtitle">Over 20 games - classic BBS door games, multiplayer card games, a full MUD, and more. Play from the menu or start one right in the chat.</p>
+
+            <div class="games-grid">
+                <div class="game-card">
+                    <h4>Red Dragon</h4>
+                    <p>Fantasy RPG. Fight monsters, visit the healer, challenge other players.</p>
+                    <span class="game-tag">rpg</span>
+                </div>
+                <div class="game-card">
+                    <h4>Star Trader</h4>
+                    <p>Buy low, sell high across the galaxy. Upgrade your ship, dodge pirates.</p>
+                    <span class="game-tag">trading</span>
+                </div>
+                <div class="game-card">
+                    <h4>The Crypt</h4>
+                    <p>Roguelike dungeon crawler. Permadeath, loot, and monsters that hunt you.</p>
+                    <span class="game-tag">roguelike</span>
+                </div>
+                <div class="game-card">
+                    <h4>MechWars</h4>
+                    <p>Pilot a mech through a hostile universe. Trade, fight, build bases.</p>
+                    <span class="game-tag">strategy</span>
+                </div>
+                <div class="game-card">
+                    <h4>Property Wars</h4>
+                    <p>Multiplayer property trading. Buy, develop, bankrupt your opponents.</p>
+                    <span class="game-tag">multiplayer</span>
+                </div>
+                <div class="game-card">
+                    <h4>1000 Miles</h4>
+                    <p>Classic racing card game. Safeties, hazards, and coups-fourres.</p>
+                    <span class="game-tag">card game</span>
+                </div>
+                <div class="game-card">
+                    <h4>Casino</h4>
+                    <p>Blackjack, poker, slots, and more. Test your luck.</p>
+                    <span class="game-tag">casino</span>
+                </div>
+                <div class="game-card">
+                    <h4>Sea Battle</h4>
+                    <p>Naval combat on the high seas. Outgun and outmaneuver.</p>
+                    <span class="game-tag">combat</span>
+                </div>
+                <div class="game-card">
+                    <h4>Drug Lord</h4>
+                    <p>Street empire simulation. Buy, sell, survive.</p>
+                    <span class="game-tag">simulation</span>
+                </div>
+                <div class="game-card">
+                    <h4>Pirate's Quest</h4>
+                    <p>Set sail for treasure. Trade cargo, fight rival pirates.</p>
+                    <span class="game-tag">adventure</span>
+                </div>
+                <div class="game-card">
+                    <h4>Murder Motel</h4>
+                    <p>Whodunit mystery. Investigate, interrogate, solve the case.</p>
+                    <span class="game-tag">mystery</span>
+                </div>
+                <div class="game-card">
+                    <h4>Star Trek</h4>
+                    <p>Explore the galaxy, fight Klingons, manage your ship's systems.</p>
+                    <span class="game-tag">strategy</span>
+                </div>
+                <div class="game-card">
+                    <h4>Atlantis</h4>
+                    <p>Underwater adventure. Dive deep, find artifacts, survive the depths.</p>
+                    <span class="game-tag">adventure</span>
+                </div>
+                <div class="game-card">
+                    <h4>Food Fight</h4>
+                    <p>Competitive cooking chaos. Outscore your rivals in the kitchen.</p>
+                    <span class="game-tag">party</span>
+                </div>
+                <div class="game-card">
+                    <h4>Big Catch</h4>
+                    <p>Fishing simulation. Find the best spots, land the big one.</p>
+                    <span class="game-tag">simulation</span>
+                </div>
+                <div class="game-card">
+                    <h4>Dice Shake</h4>
+                    <p>Multiplayer dice scoring game. Push your luck or play it safe.</p>
+                    <span class="game-tag">multiplayer</span>
+                </div>
+                <div class="game-card">
+                    <h4>PhotonMUD</h4>
+                    <p>Full multi-user dungeon. Classes, combat, crafting, exploration.</p>
+                    <span class="game-tag">mud</span>
+                </div>
+                <div class="game-card">
+                    <h4>Chat Games</h4>
+                    <p>Trivia, hangman, dice, bingo, and gunfighter - play without leaving chat.</p>
+                    <span class="game-tag">teleconf</span>
+                </div>
+                <div class="game-card">
+                    <h4>DOS Classics</h4>
+                    <p>LORD, Darkness, OOII, Barren Realms Elite, and more via DOSemu.</p>
+                    <span class="game-tag">classic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title-centered">How it works.</h2>
+            <p class="section-subtitle">Simple software, good values.</p>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>Easy to get started</h3>
+                    <p>Connect via telnet or SSH, create a free account, and you're in. No email required, no hoops to jump through.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Your business is yours</h3>
+                    <p>No tracking, no analytics, no data collection. Your conversations stay on the board. We're not interested in your data - we're interested in good company.</p>
+                </div>
+                <div class="feature-item">
+                   <h3>Runs on anything with a terminal</h3>
+                    <p>Telnet or SSH from your Mac, Linux box, Windows, or phone. We recommend <a href="https://github.com/fewtarius/photonterm" target="_blank">PhotonTERM</a> for the best experience.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Open source, always</h3>
+                    <p>PhotonBBS is GPL-licensed and on GitHub. Run your own board, modify the code, or submit a pull request. Terminal Tavern itself is community-driven - if you want a feature, you can help build it.</p>
+                </div>
+                <div class="feature-item">
+                   <h3>Active development</h3>
+                    <p>New games, new features, and regular updates. Built and maintained by someone who uses it every day.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Growing community</h3>
+                    <p>A friendly mix of old-school BBS veterans and curious newcomers. Come help us build something worth hanging around for.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect CTA -->
+    <section id="connect" class="connect-section">
+        <div class="container">
+            <div class="connect-content">
+                <h2>Come on in.</h2>
+                <p>The door's always open. Grab a terminal and say hello.</p>
+                <div class="connect-buttons">
+                    <a href="telnet://terminaltavern.com" class="btn-large btn-primary">Open Telnet</a>
+                    <a href="https://github.com/fewtarius/photonbbs" class="btn-large btn-secondary" target="_blank">View Source</a>
+                </div>
+                <div class="connect-info">
+                    <p>Or from your terminal: <code>telnet terminaltavern.com</code></p>
+                    <p>SSH: <code>ssh bbs@terminaltavern.com -p 2222</code></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section id="community" class="community-section">
+        <div class="container">
+            <h2 class="section-title-centered">Get involved.</h2>
+
+            <div class="community-grid">
+                <a href="https://github.com/fewtarius/photonbbs" class="community-link" target="_blank">
+                    <h3>GitHub</h3>
+                    <p>PhotonBBS is open source. Browse the code, report issues, or run your own board.</p>
+                </a>
+                <a href="https://www.patreon.com/fewtarius" class="community-link" target="_blank">
+                    <h3>Patreon</h3>
+                    <p>Support ongoing development and help keep the Tavern's lights on.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Terminal Tavern</h4>
+                    <ul>
+                        <li><a href="telnet://terminaltavern.com">Connect via Telnet</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#features">Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>PhotonBBS</h4>
+                    <ul>
+                        <li><a href="https://github.com/fewtarius/photonbbs" target="_blank">Source Code</a></li>
+                        <li><a href="https://github.com/fewtarius/photonbbs/releases" target="_blank">Releases</a></li>
+                        <li><a href="https://github.com/fewtarius/photonbbs/wiki" target="_blank">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/fewtarius/photonbbs/discussions" target="_blank">Discussions</a></li>
+                        <li><a href="https://www.patreon.com/fewtarius" target="_blank">Patreon</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024-2026 Andrew Wyatt. PhotonBBS is free software under the GPL v2+ license.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js?v=1"></script>
+</body>
+</html>
